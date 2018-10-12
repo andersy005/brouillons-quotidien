@@ -6,6 +6,8 @@ channels:
   - default
 dependencies:
   - python=3.6
+  - nb_conda_kernels
+  - metakernel  
   - numpy
   - scipy
   - pandas
@@ -35,14 +37,19 @@ dependencies:
   - graphviz
   - jupyterlab
   - jupyter_contrib_nbextensions 
+  - jupyter_nbextensions_configurator
   - iris 
   - iris-sample-data
   - importnb
   - yt 
   - unyt 
+  - xonsh
+  - xo
+  - nodejs
   - pip:
      - version-information
-    
+     - xonsh_kernel
+     - bash_kernel
 #    - kubernetes
 #    - git+https://github.com/dask/dask-kubernetes.git
 #    - git+https://github.com/xgcm/xgcm.git

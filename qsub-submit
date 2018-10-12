@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+qsub -I -l select=1:ncpus=2 -l walltime=03:00:00 -q economy -A $PBS_ACCOUNT
