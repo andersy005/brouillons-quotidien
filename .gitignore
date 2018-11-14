@@ -103,4 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 notebooks/data/
+<<<<<<< HEAD
 dask-worker*
+=======
+notebooks/pyreshaper/slices
+/dask-worker-space
+/data
+>>>>>>> b9f12de8ef25168a3c45e9d54a5c725ed685a4c5
