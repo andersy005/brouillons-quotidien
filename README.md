@@ -1,3 +1,3 @@
-# Scratch Space 
+# Scratch Space
 
-A collection my daily, miscellaneous notebooks for different tasks. 
+A collection my daily, miscellaneous notebooks for different tasks.

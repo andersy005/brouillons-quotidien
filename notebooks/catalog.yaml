@@ -1,11 +1,11 @@
 plugins:
-    source:
-        - module: intake_xarray
-        
+  source:
+    - module: intake_xarray
+
 sources:
-    lens_dataset_ocn_monthly_O2:
-        description: Lens Dataset in netcdf
-        driver: netcdf
-        args:
-            urlpath:
-            engine: netcdf4
+  lens_dataset_ocn_monthly_O2:
+    description: Lens Dataset in netcdf
+    driver: netcdf
+    args:
+      urlpath:
+      engine: netcdf4
