@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 notebooks/data/
 .vscode/settings.json
+dask-worker-space/
