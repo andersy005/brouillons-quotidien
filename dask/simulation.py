@@ -4,10 +4,9 @@ initialize()
 
 import socket
 
-from distributed.scheduler import logger
-
 import dask.array as da
 from dask.distributed import Client
+from distributed.scheduler import logger
 
 client = Client()  # Connect this local process to remote workers
 
